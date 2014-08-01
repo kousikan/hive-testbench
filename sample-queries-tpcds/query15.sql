@@ -1,3 +1,6 @@
+/*Report the total catalog sales for customers in selected geographical regions or
+who made large purchases for a given year and quarter.
+*/
 select  ca_zip
        ,sum(cs_sales_price)
  from catalog_sales

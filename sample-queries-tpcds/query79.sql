@@ -1,4 +1,9 @@
-
+/*
+Compute the per customer coupon amount and net profit of Monday shoppers.
+Only purchases of three consecutive years made on Mondays in large stores by
+customers with a certain dependent count and with a large vehicle count are
+considered.
+*/
 select 
   c_last_name,c_first_name,substr(s_city,1,30) sub,ss_ticket_number,amt,profit
   from

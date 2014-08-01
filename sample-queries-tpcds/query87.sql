@@ -1,3 +1,7 @@
+/*
+Count how many customers have ordered on the same day items on the web
+and the catalog and on the same day have bought items in a store.
+*/
 select count(*) 
 from (select distinct c_last_name as l1, c_first_name as f1, d_date as d1
        from store_sales

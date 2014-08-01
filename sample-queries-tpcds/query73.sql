@@ -1,4 +1,6 @@
-
+/*
+Count the number of customers with specific buy potentials and whose dependent count to vehicle count ratio is larger than 1 and who in three consecutive years bought in stores located between 1 and 5 in one purchase. Only purchases in the first 2 days of the months are considered.
+*/
 select c_last_name
        ,c_first_name
        ,c_salutation

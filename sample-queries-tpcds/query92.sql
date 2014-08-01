@@ -1,3 +1,8 @@
+/*
+Compute the total discount on web sales of items from a given manufacturer
+over a particular 90 day period for sales whose discount exceeded 30% over
+the average discount of items from that manufacturer in that period of time.
+*/
 SELECT sum(case when ssci.customer_sk is not null and csci.customer_sk is null then 1
                                  else 0 end) as store_only,
                sum(case when ssci.customer_sk is null and csci.customer_sk is not null then 1

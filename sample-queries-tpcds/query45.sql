@@ -1,3 +1,7 @@
+/*
+Report the total web sales for customers in specific zip codes, cities, counties or
+states, or specific items for a given year and quarter.
+*/
 select  ca_zip, ca_county, sum(ws_sales_price)
  from
     web_sales

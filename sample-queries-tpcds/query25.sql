@@ -1,3 +1,10 @@
+/*
+Get all items that were sold in stores in a particular month and year AND returned in the next
+three quarters AND re-purchased by the customer through the catalog channel in the six
+following months.
+For these items, compute the sum of net profit of store sales, net loss of store loss and net profit
+of catalog. Group this information by item and store.
+*/
 select
  i_item_id
  ,i_item_desc

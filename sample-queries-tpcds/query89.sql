@@ -1,4 +1,8 @@
-
+/*
+Within a year list all month and combination of item categories, classes and
+brands that have had monthly sales larger than 0.1 percent of the total yearly
+sales.
+*/
 select  *
 from(
 select i_category, i_class, i_brand,

@@ -1,4 +1,6 @@
-
+/*
+List all customers living in a specified city, with an income between 2 values.
+*/
 select  c_customer_id as customer_id
        ,concat(c_last_name, ', ', c_first_name) as customername
  from customer

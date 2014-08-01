@@ -1,4 +1,8 @@
-
+/*
+For all web return reason calculate the average sales, average refunded cash
+and average return fee by different combinations of customer and sales types
+(e.g., based on marital status, education status, state and sales profit).
+*/
 select  substr(r_reason_desc,1,20) as r
        ,avg(ws_quantity) wq
        ,avg(wr_refunded_cash) ref

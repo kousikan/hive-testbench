@@ -1,4 +1,8 @@
-
+/*
+For each store count the number of items in a specified month that were
+returned after 30, 60, 90, 120 and more than 120 days from the day of
+purchase.
+*/
 select  
    s_store_name
   ,s_company_id

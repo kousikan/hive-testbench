@@ -1,3 +1,7 @@
+/*Computes the average quantity, list price, discount, sales price for promotional
+items sold through the catalog channel where the promotion was not offered by
+mail or in an event for given gender, marital status and educational status.
+*/
 select  i_item_id, 
         avg(cs_quantity) agg1,
         avg(cs_list_price) agg2,

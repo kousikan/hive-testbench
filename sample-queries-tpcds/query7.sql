@@ -1,4 +1,8 @@
-
+/*Compute the average quantity, list price, discount, and sales price for
+promotional items sold in stores where the promotion is not offered by mail or a
+special event. Restrict the results to a specific gender, marital and educational
+status.
+*/
 select  i_item_id, 
         avg(ss_quantity) agg1,
         avg(ss_list_price) agg2,

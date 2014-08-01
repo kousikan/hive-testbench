@@ -1,3 +1,9 @@
+/*
+For all items whose price was changed on a given date, compute the
+percentage change in inventory between the 30-day period BEFORE the price
+change and the 30-day period AFTER the change. Group this information by
+warehouse.
+*/
 select  *
  from(select w_warehouse_name
             ,i_item_id

@@ -1,4 +1,9 @@
-
+/*
+What is the ratio between the number of items sold over the internet in the
+morning (8 to 9am) to the number of items sold in the evening (7 to 8pm) of
+customers with a specified number of dependents. Consider only websites with
+a high amount of content.
+*/
 select  cast(amc as decimal(15,4))/cast(pmc as decimal(15,4)) am_pm_ratio
  from ( select count(*) amc
        from web_sales, household_demographics , time_dim, web_page

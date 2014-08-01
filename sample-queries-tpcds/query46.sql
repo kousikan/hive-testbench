@@ -1,4 +1,10 @@
-
+/*
+Compute the per-customer coupon amount and net profit of all "out of town" customers buying
+from stores located in 5 cities on weekends in three consecutive years. The customers need to
+fit the profile of having a specific dependent count and vehicle count. For all these customers
+print the city they lived in at the time of purchase, the city in which the store is located, the
+coupon amount and net profit.
+*/
 select  c_last_name
        ,c_first_name
        ,ca_city

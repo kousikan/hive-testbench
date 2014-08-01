@@ -1,4 +1,8 @@
-
+/*
+Computes the average quantity, list price, discount, sales price for promotional
+items sold through the web channel where the promotion is not offered by mail
+or in an event for given gender, marital status and educational status.
+*/
 select  channel, col_name, d_year, d_qoy, i_category, COUNT(*) sales_cnt, SUM(ext_sales_price) sales_amt FROM (
         SELECT 'store' as channel, 'ss_addr_sk' col_name, d_year, d_qoy, i_category, ss_ext_sales_price ext_sales_price
          FROM store_sales, item, date_dim

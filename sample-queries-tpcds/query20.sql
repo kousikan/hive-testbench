@@ -1,3 +1,7 @@
+/*
+Compute the total revenue and the ratio of total revenue to revenue by item
+class for specified item categories and time periods.
+*/
 select  i_item_desc 
        ,i_category 
        ,i_class 

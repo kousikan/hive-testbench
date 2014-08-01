@@ -1,3 +1,6 @@
+/*
+For all items sold in stores locatred in six states during a given year, find the average quantity, average list price, average list sales price, average coupon amount for a given gender, marital status, education and customer demographic.
+*/
 select  i_item_id,
         s_state,
         avg(ss_quantity) agg1,

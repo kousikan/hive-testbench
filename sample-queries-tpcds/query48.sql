@@ -1,4 +1,8 @@
-
+/*
+Calculate the total sales by different types of customers (e.g., based on marital
+status, education status), sales price and different combinations of state and
+sales profit.
+*/
 select sum (ss_quantity)
  from store_sales, store, customer_demographics, customer_address, date_dim
  where store.s_store_sk = store_sales.ss_store_sk

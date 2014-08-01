@@ -1,3 +1,8 @@
+/*
+Retrieve the items generating the highest revenue and which had a
+revenue that was approximately equivalent across all of store, catalog
+and web within the week ending a given date.
+*/
   select  ss_items.item_id
        ,ss_item_rev
        ,ss_item_rev/(ss_item_rev+cs_item_rev+ws_item_rev)/3 * 100 ss_dev

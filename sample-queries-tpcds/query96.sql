@@ -1,4 +1,6 @@
-
+/*Compute a count of sales from a named store to customers with a given
+number of dependents made in a specified half hour period of the day.
+*/
 select  count(*) as c
 from store_sales
     ,household_demographics 

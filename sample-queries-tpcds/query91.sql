@@ -1,4 +1,8 @@
-
+/*Display total returns of catalog sales by call center and manager in a particular
+month for male customers of unknown education or female customers with
+advanced degrees with a specified buy potential and from a particular time
+zone.
+*/
 select  
         cc_call_center_id Call_Center,
         cc_name Call_Center_Name,

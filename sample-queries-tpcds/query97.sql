@@ -1,3 +1,8 @@
+/*
+Generate counts of promotional sales and total sales, and their ratio from the
+web channel for a particular item category and month to customers in a given
+time zone.
+*/
 select sum(case when ssci.customer_sk is not null and csci.customer_sk is null then 1 else 0 end) store_only
       ,sum(case when ssci.customer_sk is null and csci.customer_sk is not null then 1 else 0 end) catalog_only
       ,sum(case when ssci.customer_sk is not null and csci.customer_sk is not null then 1 else 0 end) store_and_catalog

@@ -1,3 +1,6 @@
+/*Report the total extended sales price per item brand of a specific manufacturer
+for all sales in a specific month of the year.
+*/
 select  dt.d_year 
        ,item.i_brand_id brand_id 
        ,item.i_brand brand

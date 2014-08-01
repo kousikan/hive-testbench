@@ -1,3 +1,6 @@
+/*
+Select the top 10 revenue generating products, sold during breakfast or dinner time for one month managed by a given manager across all three sales channels.
+*/
 select i_brand_id brand_id, i_brand brand,t_hour,t_minute,
  	sum(ext_price) ext_price
  from item JOIN (select ws_ext_sales_price as ext_price, 

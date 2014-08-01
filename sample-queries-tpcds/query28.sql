@@ -1,3 +1,9 @@
+/*
+Calculate the average list price, number of non empty (null) list prices and
+number of distinct list prices of six different sales buckets of the store sales
+channel. Each bucket is defined by a range of distinct items and information
+about list price, coupon amount and wholesale cost.
+*/
 select  *
 from (select avg(ss_list_price) B1_LP
             ,count(ss_list_price) B1_CNT

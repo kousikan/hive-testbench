@@ -1,3 +1,9 @@
+/*
+Calculate the average sales quantity, average sales price, average wholesale cost, total
+wholesale cost for store sales of different customer types (e.g., based on marital status,
+education status) including their household demographics, sales price and different
+combinations of state and sales profit for a given year.
+*/
 select avg(ss_quantity)
        ,avg(ss_ext_sales_price)
        ,avg(ss_ext_wholesale_cost)

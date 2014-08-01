@@ -1,3 +1,8 @@
+/*
+For each item and a specific year and month calculate the sum of the extended
+sales price of store transactions.
+*/
+
 select  dt.d_year
  	,item.i_category_id
  	,item.i_category

@@ -1,3 +1,6 @@
+/*Find customers who tend to spend more money (net-paid) on-line than in
+stores.
+*/
 select  i_item_id
        ,i_item_desc
        ,i_current_price

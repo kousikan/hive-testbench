@@ -1,3 +1,8 @@
+/*
+Compute the impact of an item price change on the sales by computing the total
+sales for items in a 30 day period before and after the price change. Group the
+items by location of warehouse where they were delivered from.
+*/
 select  
    w_state
   ,i_item_id

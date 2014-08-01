@@ -1,4 +1,9 @@
-
+/*
+Compute the per customer extended sales price, extended list price and
+extended tax for "out of town" shoppers buying from stores located in two cities
+in the first two days of each month of three consecutive years. Only consider
+customers with specific dependent and vehicle counts.
+*/
 select  c_last_name
        ,c_first_name
        ,ca_city

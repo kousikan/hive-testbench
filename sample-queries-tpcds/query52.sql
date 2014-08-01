@@ -1,4 +1,7 @@
-
+/*
+Report the total of extended sales price for all items of a specific brand in a
+specific year and month.
+*/
 select  dt.d_year
  	,item.i_brand_id brand_id
  	,item.i_brand brand

@@ -1,4 +1,6 @@
-
+/*
+Report on items sold in a given 30 day period, belonging to the specified category.
+*/
 select i_item_desc 
       ,i_category 
       ,i_class 

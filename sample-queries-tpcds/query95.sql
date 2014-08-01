@@ -1,3 +1,8 @@
+/*
+Produce a count of web sales and total shipping cost and net profit in a given
+60 day period to customers in a given state from a named web site for returned
+orders shipped from more than one warehouse.
+*/
 SELECT count(distinct ws1.ws_order_number) as order_count,
                sum(ws1.ws_ext_ship_cost) as total_shipping_cost,
                sum(ws1.ws_net_profit) as total_net_profit

@@ -1,3 +1,9 @@
+/*
+Compute the revenue ratios across item classes: For each item in a list of
+given categories, during a 30 day time period, sold through the web channel
+compute the ratio of sales of that item to the sum of all of the sales in that item's
+class.
+*/
 select  i_item_desc 
       ,i_category 
       ,i_class 

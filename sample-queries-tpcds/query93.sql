@@ -1,4 +1,8 @@
-
+/*
+For a given merchandise return reason, report on customers’ total cost of
+purchases minus the cost of returned items. Limit the output to the 100
+customers with the highest value of total purchases.
+*/
 select  ss_customer_sk
             ,sum(act_sales) sumsales
       from (select ss_item_sk

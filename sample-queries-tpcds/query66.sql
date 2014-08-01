@@ -1,4 +1,7 @@
-
+/*
+Compute web and catalog sales and profits by warehouse. Report results by
+month for a given year during a given 8-hour period.
+*/
 select   
          w_warehouse_name
  	,w_warehouse_sq_ft
